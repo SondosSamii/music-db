@@ -35,10 +35,7 @@ const Artist = ({ match })=> {
                     </div>
                     <div className="col-10 col-md-7 col-lg-5">
                         <h1>{artist.name}</h1>
-                        <p>{artist.bio}</p>
-                    </div>
-                    <div className="col-10 col-md-8 py-2">
-                        <Albums key={artist.id} albums={artist.albums}/>
+                        <p className="text-left">{artist.bio}</p>
                     </div>
                 </div>
             )
