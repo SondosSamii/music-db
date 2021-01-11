@@ -18,9 +18,7 @@ export default class Artists extends Component {
                 return res.json();
             })
             .then(data=>{
-                // console.log(data);
                 this.setState({artists: data});
-                // console.log(this.state.artists);
             })
             .catch(err=>{
                 console.log(err);
@@ -46,7 +44,7 @@ export default class Artists extends Component {
             })
         }
         return (
-            <h1>No Artists</h1>
+            <h2>There's a problem with Database</h2>
         )
     }
 
