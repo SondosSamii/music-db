@@ -33,19 +33,19 @@ body {
     transform: scale(1.1);
 }
 
-.boxBtn {
+.box-btn {
     position: absolute;
     bottom: 5px;
     left: 5px;
     transition: all 0.5s;
 }
 
-.boxBtn:hover {
+.box-btn:hover {
     bottom: 15px;
     left: 15px;
 }
 
-.boxBtn:hover a {
+.box-btn:hover a {
     text-decoration: none;
 }
 

@@ -36,7 +36,7 @@ export default class Artists extends Component {
                            <img className="img-fluid"
                                src={`/images/covers/${artist.cover}.jpg`}
                                alt={`${artist.name} Cover`}/>
-                           <button className="btn btn-primary rounded-pill boxBtn">
+                           <button className="btn btn-primary rounded-pill box-btn">
                                <Link to={`artist/${artist.id}`}
                                    style={{color: '#fff'}}>{artist.name}</Link>
                            </button>
