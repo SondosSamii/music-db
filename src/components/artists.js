@@ -32,11 +32,11 @@ export default class Artists extends Component {
             return artists.map((artist)=>{
                 return (
                    <div className="col-12 col-md-6 col-lg-4 p-2" key={artist.id}>
-                       <div className="artistBox">
+                       <div className="box">
                            <img className="img-fluid"
                                src={`/images/covers/${artist.cover}.jpg`}
                                alt={`${artist.name} Cover`}/>
-                           <button className="btn btn-primary rounded-pill artistBtn">
+                           <button className="btn btn-primary rounded-pill boxBtn">
                                <Link to={`artist/${artist.id}`}
                                    style={{color: '#fff'}}>{artist.name}</Link>
                            </button>

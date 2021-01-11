@@ -13,7 +13,7 @@ body {
     font-size: 3.5em;
 }
 
-.artistBox {
+.box {
     border-radius: 20px;
     position: relative;
     overflow: hidden;
@@ -21,31 +21,31 @@ body {
     transition: box-shadow 0.5s;
 }
 
-.artistBox:hover {
+.box:hover {
     box-shadow: 0 0 20px 1px #333;
 }
 
-.artistBox img {
+.box img {
     transition: transform 0.5s;
 }
 
-.artistBox:hover img {
+.box:hover img {
     transform: scale(1.1);
 }
 
-.artistBtn {
+.boxBtn {
     position: absolute;
     bottom: 5px;
     left: 5px;
     transition: all 0.5s;
 }
 
-.artistBtn:hover {
+.boxBtn:hover {
     bottom: 15px;
     left: 15px;
 }
 
-.artistBtn:hover a {
+.boxBtn:hover a {
     text-decoration: none;
 }
 
