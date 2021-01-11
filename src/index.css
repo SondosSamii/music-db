@@ -1,0 +1,17 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+.bg {
+    background-color: #ccc;
+}
+
+.music-db-header {
+    color: #FFFFFF;
+    font-family: 'Monoton', cursive;
+    font-size: 3.5em;
+}
