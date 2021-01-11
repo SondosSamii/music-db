@@ -37,6 +37,9 @@ const Artist = ({ match })=> {
                         <h1>{artist.name}</h1>
                         <p>{artist.bio}</p>
                     </div>
+                    <div className="col-10 col-md-8 py-2">
+                        <Albums key={artist.id} albums={artist.albums}/>
+                    </div>
                 </div>
             )
         }
