@@ -3,6 +3,8 @@ import { NavLink as Link } from 'react-router-dom';
 
 import Albums from './albums';
 
+document.title = "Artist";
+
 const Artist = ({ match })=> {
     // eslint-disable-next-line
     const [artist, setArtist] = useState({});
@@ -14,9 +16,7 @@ const Artist = ({ match })=> {
             return res.json();
         })
         .then(data=>{
-            // console.log(data);
             setArtist(data);
-            // console.log(artist);
         })
         .catch(err=>{
             console.log(err);

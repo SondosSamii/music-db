@@ -1,6 +1,8 @@
 import { Component } from 'react';
 import { NavLink as Link } from 'react-router-dom';
 
+document.title = "Artists";
+
 export default class Artists extends Component {
     constructor() {
         super();
