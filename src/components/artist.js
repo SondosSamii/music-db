@@ -26,7 +26,7 @@ const Artist = ({ match })=> {
         if(artist.id) {
             return (
                 <div className="row justify-content-center align-items-center">
-                    <div className="col-10 col-md-5">
+                    <div className="col-8 col-md-5">
                         <div className="box">
                             <img className="img-fluid"
                                 src={`/images/covers/${artist.cover}.jpg`}
