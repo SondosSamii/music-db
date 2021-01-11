@@ -5,6 +5,7 @@ html {
 body {
     margin: 0;
     background-color: #ccc;
+    font-family: 'Nunito', sans-serif;
 }
 
 .music-db-header {
