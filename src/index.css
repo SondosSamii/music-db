@@ -4,9 +4,6 @@ html {
 
 body {
     margin: 0;
-}
-
-.bg {
     background-color: #ccc;
 }
 
@@ -51,3 +48,4 @@ body {
 .artistBtn:hover a {
     text-decoration: none;
 }
+

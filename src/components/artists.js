@@ -52,7 +52,7 @@ export default class Artists extends Component {
 
     render() { 
         return (
-        <div className="bg text-center py-5">
+        <div className="text-center py-5">
              <h1>Browse The Artists</h1>
              <div className="container pt-3">
                  <div className="row justify-content-center">
