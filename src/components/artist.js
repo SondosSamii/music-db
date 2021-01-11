@@ -1,4 +1,6 @@
 import {useState, useEffect} from 'react'
+import { NavLink as Link } from 'react-router-dom';
+
 import Albums from './albums';
 
 const Artist = ({ match })=> {
@@ -44,7 +46,7 @@ const Artist = ({ match })=> {
             )
         }
         return (
-            <div>No artist</div>
+            <h1 className="text-center pt-3">No Artists with this ID <Link to='/'>Go to Home</Link></h1>
         )
     }
 
