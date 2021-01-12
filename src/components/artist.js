@@ -3,8 +3,6 @@ import { NavLink as Link } from 'react-router-dom';
 
 import Albums from './albums';
 
-document.title = "Artist";
-
 const Artist = ({ match })=> {
     // eslint-disable-next-line
     const [artist, setArtist] = useState({});
@@ -25,6 +23,7 @@ const Artist = ({ match })=> {
     }, []);
 
     const renderArtist = (artist)=> {
+        document.title = "Artist";
         if(artist.id) {
             return (
                 <div className="row justify-content-center align-items-center">
