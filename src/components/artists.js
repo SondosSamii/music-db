@@ -7,7 +7,7 @@ export default class Artists extends Component {
     constructor() {
         super();
 
-        this.baseURL = "http://localhost:3500/artists";
+        this.baseURL = "https://my-json-server.typicode.com/sondossamii/music-db/artists";
         
         this.state = {
             artists: []

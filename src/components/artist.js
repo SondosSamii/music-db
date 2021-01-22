@@ -6,7 +6,7 @@ import Albums from './albums';
 const Artist = ({ match })=> {
     // eslint-disable-next-line
     const [artist, setArtist] = useState({});
-    const baseURL = `http://localhost:3500/artists/${match.params.id}`;
+    const baseURL = `https://my-json-server.typicode.com/sondossamii/music-db/artists/${match.params.id}`;
 
     useEffect(()=>{
         fetch(baseURL, {method: 'GET'})
