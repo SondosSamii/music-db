@@ -13,7 +13,7 @@ const Routes = () => {
   return (
     <Router>
       <Switch>
-        <Route path="/" render={() => <Redirect to="music-db" />}></Route>
+        <Route exact path="/" render={() => <Redirect to="music-db" />}></Route>
         <Route path="/music-db" component={Home}></Route>
         <Route path="/artist/:id" component={Artist}></Route>
         <Route path="*" component={NotFound}></Route>
