@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/music-db/static/css/main.64cc1dac.css",
+    "main.js": "/music-db/static/js/main.a774a2dc.js",
+    "index.html": "/music-db/index.html",
+    "main.64cc1dac.css.map": "/music-db/static/css/main.64cc1dac.css.map",
+    "main.a774a2dc.js.map": "/music-db/static/js/main.a774a2dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.64cc1dac.css",
+    "static/js/main.a774a2dc.js"
+  ]
+}
