@@ -1,9 +1,9 @@
 const bgStyle = {
-    width: '100%',
-    height: '100%',
-    background: 'url(/images/cover.png) center no-repeat',
-    backgroundSize: 'cover'
-}
+  width: "100%",
+  height: "100%",
+  background: "url(/music-db/images/cover.png) center no-repeat",
+  backgroundSize: "cover",
+};
 
 const Banner = ()=> {
     return (
